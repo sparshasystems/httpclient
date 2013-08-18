@@ -80,7 +80,7 @@ public class MainActivity extends Activity {
 				
 				// comment the below line to view the contents of the site, if the "save" operation  fails
 
-				textView.setText("Website Loaded but cannot be saved");
+				textView.setText("Website Loaded but cannot be saved,comment the setText");
 			}
        }
     }
