@@ -77,6 +77,9 @@ public class MainActivity extends Activity {
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+				
+				// comment the below line to view the contents of the site, if the "save" operation  fails
+
 				textView.setText("Website Loaded but cannot be saved");
 			}
        }
